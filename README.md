@@ -14,6 +14,8 @@ Copy-paste this text into your browser if the link does not work: https://huggin
 
 You may be prompted to restart the space if it has been inactive for a long time. Restarting will lead to it being re-built and will take some time to load. 
 
+The files on Hugging Face include the actual model weights and a script that loads them. These are available to view if needed. 
+
 ### Evaluation 
 > [!NOTE]
 > Relevant file: `evaluate_it.ipynb`
@@ -35,4 +37,4 @@ This notebook shows my attempt to create Word2Vec embeddings. It shows the code 
 
 These two notebooks were used for generating training data, as well as training the image captioning model. Note that the training notebook does not show the full training loop as training data for the first 3 epochs was lost. The first 3 epochs were trained using the same code but on a different notebook to get over GPU time constraints. 
 
-Also note that there is a bug in the training image captioning noteboook. I accidentally hard-coded the scheduled sampling probability at 0.1. I did not fix this because by the time I noticed, I had already decided to discontinue the use of scheduled sampling instead of implementing it for all training epochs. 
+Also note that there is a bug in the training image captioning noteboook. I accidentally hard-coded the scheduled sampling probability at 0.1. I did not fix this because by the time I noticed, I had already decided to discontinue the use of scheduled sampling instead of implementing it for all training epochs. This bug has had no effect on the actual training of the model. 
