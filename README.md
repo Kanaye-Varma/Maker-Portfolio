@@ -33,6 +33,6 @@ This notebook shows my attempt to create Word2Vec embeddings. It shows the code 
 > Relevant file: `image_captioning_data_generation.ipynb`
 > Relevant file: `training-image-captioning.ipynb`
 
-These two notebooks were used for generating training data, as well as training the image captioning model. Note that the training notebook does not show the full training loop as training data for the first 3 epochs was lost (they were trained separately to get over GPU time constraints). The first 3 epochs were trained using the same code but on a different notebook to get over GPU time constraints. 
+These two notebooks were used for generating training data, as well as training the image captioning model. Note that the training notebook does not show the full training loop as training data for the first 3 epochs was lost. The first 3 epochs were trained using the same code but on a different notebook to get over GPU time constraints. 
 
 Also note that there is a bug in the training image captioning noteboook. I accidentally hard-coded the scheduled sampling probability at 0.1. I did not fix this because by the time I noticed, I had already decided to discontinue the use of scheduled sampling instead of implementing it for all training epochs. 
