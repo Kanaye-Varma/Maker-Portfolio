@@ -3,7 +3,7 @@
 This is my Maker Portfolio submission. 
 
 > [!IMPORTANT]
-> This was not initially meant to be a portfolio project. As a result, this repo is not fully version-controlled, and only the final version of each file has been uploaded. The attached write-up contains snippets of old code obtained from local history where appropriate, but it was not feasible to upload the full version history to GitHub. 
+> I did not start this project expecting it to become a portfolio project. As a result, this repo is not fully version-controlled, and only the final version of each file has been uploaded. The attached write-up contains snippets of old code obtained from local history where appropriate, but it was not feasible to upload the full version history to GitHub. 
 
 ### What I made  
 I have made an image-captioning model. It generates short, descriptive captions for input images. 
